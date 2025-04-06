@@ -54,13 +54,13 @@ Run the app.py application
 export FLASK_APP=app.py
 	flask run
 ```
-![Bild](./Screenshots/Tasks/flask_run_local.png)
+![Bild](./Screenshots/Tasks/4-App-py.png)
 
 Make a prediction with the following code
 ```bash
 sh make_prediction.sh
 ```
-![Bild](./Screenshots/Tasks/make_test_local.png)
+![Bild](./Screenshots/Tasks/5-Prediction.png)
 
 
 
