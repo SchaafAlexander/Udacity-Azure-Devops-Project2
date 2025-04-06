@@ -95,9 +95,9 @@ CI pipeline using GitHub Actions according to the tasks
 ![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/3-GitHub-Actions-Build-README.png)
 
 ### 3.2	Azure Pipelines
-Setup Azure Pipelines to continue deploy application to Azure App Services follow these instructions from Azure [Azure pipeline python app instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) and [Azure pipeline self hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
+Seting up the Azure Pipeline for  CD to Azure App Services we need to follow the provided instructions [Azure pipeline python app instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) and [Azure pipeline self hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
 
-![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/5-Pipeline.png)
 
 -----
 
