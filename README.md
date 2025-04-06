@@ -2,18 +2,19 @@
 
 [![Python application test with Github Actions](https://github.com/SchaafAlexander/Udacity-Azure-Devops-Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/SchaafAlexander/Udacity-Azure-Devops-Project2/actions/workflows/pythonapp.yml)
 
-<TODO: complete this with an overview of your project>
+In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. You'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, you'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
-<TODO: Project Plan
+Keeping track of timelines via Trello and a Google Spreadsheet:
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello](https://trello.com/invite/b/67f24e0d64e6d99e7c25a2bc/ATTI9374d937d54a8dffae2bf323b6a9f9f77CCBF536/udacity-devops-project2)
+* [Spreadsheet](https://docs.google.com/spreadsheets/d/1ANMOdretgMMkiOAh9I9MfvVI8GQpek04MBkQ5Y5fP28/edit?usp=sharing)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![building-a-ci-cd-pipeline](./screenshots/For_Readme/building-a-ci-cd-pipeline.png)
+![CI diagram](./screenshots/For_Readme/ci-diagrams.png)
+![CD diagram](./screenshots/For_Readme/cd-diagrams.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
