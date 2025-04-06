@@ -42,7 +42,7 @@ source ~/.myrepo/bin/activate
 ```
 
 ### 1.3.	Make all test
-- Run make all to verify
+- Run make all to verify (cd U.. Tab for folder)
 ```bash
 make all
 ```
@@ -56,7 +56,7 @@ export FLASK_APP=app.py
 ```
 ![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/4-App-py.png)
 
-Make a prediction with the following code
+Make a prediction with the following code (cd U.. Tab for folder)
 ```bash
 sh make_prediction.sh
 ```
