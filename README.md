@@ -51,7 +51,8 @@ make all
 ### 1.4.	Output of a test run
 Run the app.py application
 ```bash
-python app.py
+export FLASK_APP=app.py
+	flask run
 ```
 ![Bild](./Screenshots/Tasks/flask_run_local.png)
 
