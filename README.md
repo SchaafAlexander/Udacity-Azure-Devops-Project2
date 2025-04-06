@@ -12,7 +12,7 @@ Keeping track of timelines via Trello and a Google Spreadsheet:
 
 ## Instructions
 
-![building-a-ci-cd-pipeline](./screenshots/For Readme/building-a-ci-cd-pipeline.png)
+![building-a-ci-cd-pipeline](./screenshots/'For Readme'/building-a-ci-cd-pipeline.png)
 ![CI diagram](./screenshots/For Readme/ci-diagrams.png)
 ![CD diagram](./screenshots/For Readme/cd-diagrams.png)
 
