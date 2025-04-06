@@ -27,11 +27,25 @@ ssh-keygen -t rsa -b 2048 -C "GitHub-Email"
 Add the public key to your GitHub Account under Settings, SSH and GPG keys and give it a name
 
 ### 1.2.	Git Clone
-Git clone the project into your Azure Cloud Shell environment
+- Git clone the project into your Azure Cloud Shell environment
 ```bash
-git clone git@github.com:quyetnn1102/udacity-azure-devops-project2.git
+git clonegit@github.com:SchaafAlexander/Udacity-Azure-Devops-Project2.git
 ```
-![alt text](./screenshots/clone_project.png)
+![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/2-Git-Clone.png)
+
+Create the Python Virtual Environment
+```bash
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
+
+### 1.3.	Make all test
+- Run make all to verify
+```bash
+make all
+```
+![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/3-Make-all-test.png)
+
 
 -----
 
