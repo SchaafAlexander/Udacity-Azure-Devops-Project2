@@ -26,12 +26,12 @@ ssh-keygen -t rsa -b 2048 -C "GitHub-Email"
 ```
 ![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/1-SSH-Keygen.png)
 
-Add the public key to your GitHub Account under Settings, SSH and GPG keys and give it a name
+Add the public key to your GitHub Account under Settings via the "cat", SSH and GPG keys and give it a name
 
 ### 1.2.	Git Clone
 - Git clone the project into your Azure Cloud Shell environment
 ```bash
-git clonegit@github.com:SchaafAlexander/Udacity-Azure-Devops-Project2.git
+git clone git@github.com:SchaafAlexander/Udacity-Azure-Devops-Project2.git
 ```
 ![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/2-Git-Clone.png)
 
