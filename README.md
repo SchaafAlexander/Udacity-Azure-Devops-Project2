@@ -90,9 +90,9 @@ az webapp log tail --name schaaf-udacity-project2 --resource-group Azuredevops
 
 ### 2.1	GitHub Action
 CI pipeline using GitHub Actions according to the tasks
-![Bild](./Screenshots/Tasks/2-CI-Configure-Github-Actions/1-GitHub-Actions-Build.png)
-![Bild](./Screenshots/Tasks/2-CI-Configure-Github-Actions/2-GitHub-Actions-Build.png)
-![Bild](./Screenshots/Tasks/2-CI-Configure-Github-Actions/3-GitHub-Actions-Build-README.png)
+![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/1-GitHub-Actions-Build.png)
+![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/2-GitHub-Actions-Build.png)
+![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/3-GitHub-Actions-Build-README.png)
 
 ### 3.2	Azure Pipelines
 Setup Azure Pipelines to continue deploy application to Azure App Services follow these instructions from Azure [Azure pipeline python app instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) and [Azure pipeline self hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
