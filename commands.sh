@@ -1,0 +1,1 @@
+git Clone git@github.com:SchaafAlexander/Udacity-Azure-Devops-Project2.git; cd Udacity-Azure-Devops-Project2; git pull; python3 -m venv ~/.Udacity-Azure-Devops-Project2; source ~/.Udacity-Azure-Devops-Project2/bin/activate; make all; az webapp up -n schaaf-udacity-project2 -g Azuredevops --sku FREE
