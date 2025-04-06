@@ -68,10 +68,10 @@ Deploy the application to Azure App Service
 az webapp up -n schaaf-udacity-project2 -g Azuredevops --sku FREE
 ```
 
-![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/1-AZ-Webapp.png)
 
 
-![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/2-AZ-Webapp-URL.png)
 
 
 Make a prediction test for deployed app running on Azure App Services
@@ -79,8 +79,25 @@ Make a prediction test for deployed app running on Azure App Services
 sh make_predict_azure_app.sh
 ```
 
-![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/3-AZ-Webapp-URL-Prediction.png)
 
+Output of streamed log files from deployed application in Azure App Service 
+```bash
+az webapp log tail --name schaaf-udacity-project2 --resource-group Azuredevops
+```
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/4-log.png)
+
+### 2.1	GitHub Action
+CI pipeline using GitHub Actions according to the tasks
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/1-GitHub-Actions-Build.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/2-GitHub-Actions-Build.png)
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/3-GitHub-Actions-Build-README.png)
+
+### 3.2	Azure Pipelines
+Setup Azure Pipelines to continue deploy application to Azure App Services follow these instructions from Azure [Azure pipeline python app instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) and [Azure pipeline self hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
 
 -----
 
