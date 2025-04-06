@@ -16,6 +16,25 @@ Keeping track of timelines via Trello and a Google Spreadsheet:
 ![CI diagram](./Screenshots/Readme/ci-diagram.png)
 ![CD diagram](./Screenshots/Readme/cd-diagram.png)
 
+### 1.1	CI: Set Up Azure Cloud Shell
+- Log into your Azure Cloud Shell and create a ssh key gen
+
+```bash
+ssh-keygen -t rsa -b 2048 -C "GitHub-Email"
+```
+![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/1-SSH-Keygen.png)
+
+Add the public key to your GitHub Account under Settings, SSH and GPG keys and give it a name
+
+### 1.2.	Git Clone
+Git clone the project into your Azure Cloud Shell environment
+```bash
+git clone git@github.com:quyetnn1102/udacity-azure-devops-project2.git
+```
+![alt text](./screenshots/clone_project.png)
+
+-----
+
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
