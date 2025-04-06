@@ -22,7 +22,7 @@ Keeping track of timelines via Trello and a Google Spreadsheet:
 ```bash
 ssh-keygen -t rsa -b 2048 -C "GitHub-Email"
 ```
-![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/1-SSH-Keygen.png)
+![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/1-SSH-Keygen.png)
 
 Add the public key to your GitHub Account under Settings, SSH and GPG keys and give it a name
 
@@ -31,7 +31,7 @@ Add the public key to your GitHub Account under Settings, SSH and GPG keys and g
 ```bash
 git clonegit@github.com:SchaafAlexander/Udacity-Azure-Devops-Project2.git
 ```
-![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/2-Git-Clone.png)
+![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/2-Git-Clone.png)
 
 Create the Python Virtual Environment
 ```bash
@@ -44,7 +44,7 @@ source ~/.myrepo/bin/activate
 ```bash
 make all
 ```
-![alt text](./Screenshots/1-CI-Set-Up-Azure-Cloud-Shell/3-Make-all-test.png)
+![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/3-Make-all-test.png)
 
 
 -----
