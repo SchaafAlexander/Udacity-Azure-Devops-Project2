@@ -49,11 +49,20 @@ make all
 ![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/3-Make-all-test.png)
 
 ### 1.4.	Output of a test run
-- run the python file
+Run the app.py application
 ```bash
-python run flask file
+export FLASK_APP=app.py
+	flask run
 ```
-![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/4-Make-all-test.png)
+![Bild](./Screenshots/Tasks/flask_run_local.png)
+
+Make a prediction with the following code
+```bash
+sh make_prediction.sh
+```
+![Bild](./Screenshots/Tasks/make_test_local.png)
+
+
 
 -----
 
