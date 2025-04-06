@@ -54,13 +54,13 @@ Run the app.py application
 export FLASK_APP=app.py
 	flask run
 ```
-![Bild](./Screenshots/Tasks/4-App-py.png)
+![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/4-App-py.png)
 
 Make a prediction with the following code
 ```bash
 sh make_prediction.sh
 ```
-![Bild](./Screenshots/Tasks/5-Prediction.png)
+![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/5-Prediction.png)
 
 
 
