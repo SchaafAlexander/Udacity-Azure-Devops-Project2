@@ -38,6 +38,9 @@ stages:
       displayName: 'Use Python $(pythonVersion)'
 
     - script: |
+        sudo apt-get update
+        sudo apt-get install -y libpython3.10
+        displayName: 'Install Python Shared Libraries'
         python -m venv antenv
         source antenv/bin/activate
         python -m pip install --upgrade pip
