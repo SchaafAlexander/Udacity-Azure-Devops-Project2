@@ -12,9 +12,9 @@ Keeping track of timelines via Trello and a Google Spreadsheet:
 
 ## Instructions
 
-![building-a-ci-cd-pipeline](./Screenshots/"For Readme"/building-a-ci-cd-pipeline.png)
-![CI diagram](./screenshots/For Readme/ci-diagrams.png)
-![CD diagram](./screenshots/For Readme/cd-diagrams.png)
+![building-a-ci-cd-pipeline](./Screenshots/Readme/building-a-ci-cd-pipeline.png)
+![CI diagram](./screenshots/Readme/ci-diagrams.png)
+![CD diagram](./screenshots/Readme/cd-diagrams.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
