@@ -86,7 +86,7 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+In this example, we used Azure Pipelines, but in the future one could use GitHub Actions to perform Continuous Delivery.
 
 ## Demo 
 
