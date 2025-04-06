@@ -62,6 +62,24 @@ sh make_prediction.sh
 ```
 ![Bild](./Screenshots/Tasks/1-CI-Set-Up-Azure-Cloud-Shell/5-Prediction.png)
 
+### 3.1 	Deploy application to an Azure App Service
+Deploy the application to Azure App Service
+```bash
+az webapp up -n schaaf-udacity-project2 -g Azuredevops --sku FREE
+```
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
+
+
+Make a prediction test for deployed app running on Azure App Services
+```bash
+sh make_predict_azure_app.sh
+```
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/.png)
 
 
 -----
