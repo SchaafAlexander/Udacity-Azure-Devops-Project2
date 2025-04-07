@@ -103,6 +103,10 @@ Seting up the Azure Pipeline for  CD to Azure App Services we need to follow the
 ![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/5-Pipeline.png)
 
 
+Successful Prediction after CI/CD Deployment
+
+![Bild](./Screenshots/Tasks/3-Continious-Delivery-on-Azure/6-Azure-App.png)
+
 > 
 
 ## Enhancements
