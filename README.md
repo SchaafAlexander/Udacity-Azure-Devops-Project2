@@ -2,9 +2,6 @@
 
 [![Python application test with Github Actions](https://github.com/SchaafAlexander/Udacity-Azure-Devops-Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/SchaafAlexander/Udacity-Azure-Devops-Project2/actions/workflows/pythonapp.yml)
 
-Requested Screenshot according to Rubric
-
-![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/4-Status.png)
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. You'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, you'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
@@ -95,6 +92,10 @@ CI pipeline using GitHub Actions according to the tasks
 ![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/1-GitHub-Actions-Build.png)
 ![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/2-GitHub-Actions-Build.png)
 ![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/3-GitHub-Actions-Build-README.png)
+
+Requested Screenshot if GitHub Action Status according to Rubric
+
+![Bild](./Screenshots/Tasks/2-CI-Configure-GitHub-Actions/4-Status.png)
 
 ### 3.2	Azure Pipelines
 Seting up the Azure Pipeline for  CD to Azure App Services we need to follow the provided instructions [Azure pipeline python app instructions](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) and [Azure pipeline self hosted agent](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
