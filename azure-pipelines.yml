@@ -31,11 +31,13 @@ stages:
       name: myAgentPool
     steps:
     - task: UsePythonVersion@0
+      condition: always()
       inputs:
         versionSpec: '$(pythonVersion)'
         addToPath: true
         githubToken: $(GITHUB_TOKEN)
       displayName: 'Use Python $(pythonVersion)'
+      continueOnError: true
 
     - script: |
         sudo apt-get update
